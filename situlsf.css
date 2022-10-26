@@ -22,7 +22,15 @@ article{
     text-align: justify;
 
 }
-
+article .insta ul li{
+    list-style-image: url("./kepek/insta.jpg");
+}
+article .facebook ul li{
+    list-style-image: url("./kepek/face.jpg");
+}
+article .twitter ul li{
+    list-style-image: url("./kepek/twit.jpg");
+}
 aside{
     display: grid;
     grid-area: as;
