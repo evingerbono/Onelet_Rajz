@@ -13,6 +13,7 @@ header ul li{
 }
 header img{
     margin: auto;
+    border-radius: 100%;
 }
 article{
     display: grid;
@@ -23,13 +24,13 @@ article{
 
 }
 article .insta ul li{
-    list-style-image: url("./kepek/insta.jpg");
+    list-style-image: url("");
 }
 article .facebook ul li{
-    list-style-image: url("./kepek/face.jpg");
+    list-style-image: url("");
 }
 article .twitter ul li{
-    list-style-image: url("./kepek/twit.jpg");
+    list-style-image: url("");
 }
 aside{
     display: grid;
@@ -37,9 +38,7 @@ aside{
     padding-left: 10px;
     background-color: rgba(0, 0, 0, 0.856);
 }
-img{
-    border-radius: 100%;
-}
+
 footer{
     display: grid;
     grid-area: f;
@@ -76,6 +75,7 @@ aside ul{
 aside ul li{
     text-align: start;
     padding: auto;
+    list-style: none;
 }
 
 main{

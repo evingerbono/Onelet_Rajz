@@ -23,28 +23,28 @@ article{
 
 }
 article .insta ul li{
-    list-style-image: url("./kepek/insta.jpg");
+    list-style-image: url("./kepek/insta.png");
 }
 article .facebook ul li{
-    list-style-image: url("./kepek/face.jpg");
+    list-style-image: url("./kepek/face.png");
 }
 article .twitter ul li{
-    list-style-image: url("./kepek/twit.jpg");
+    list-style-image: url("./kepek/twitter.png");
 }
 
 aside{
     display: grid;
     grid-area: as;
     padding-left: 10px;
-    background-color: rgb(241, 241, 241);
+    background-color: white;
 }
-img{
+header img{
     border-radius: 100%;
 }
 footer{
     display: grid;
     grid-area: f;
-    background-color: rgb(241, 241, 241);
+    background-color: white;
 }
 h1{
     font-size: 25px;
@@ -77,6 +77,7 @@ aside ul{
 aside ul li{
     text-align: start;
     padding: auto;
+    list-style: none;
 }
 
 main{
